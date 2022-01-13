@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('GymPics/risen-wang-20jX9b35r_M-unsplash.jpg');
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+}
+
+.left img {
+    width: 140px;
+    margin-top: 0;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 10px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+}
+
+.btn {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 4px 8px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn:hover, .btn:active {
+    background-color: orange;
+    color: black;
+    border: none;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 8px;
+    word-spacing: 1px;
+}
+
+.navbar li a:hover, .navbar li a:active {
+    color: orange;
+    text-decoration: underline;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 95px 95px;
+    padding: 40px;
+    width: 33%;
+    border-radius: 30px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 420px;
+    padding: 0;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 23px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.container .btn {
+    display: block;
+    text-align: center;
+    width: 85%;
+    margin: 15px auto;
+}
