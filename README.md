@@ -1,1 +1,1 @@
-# GymWebsite.github.io
+https://aayushm017.github.io/GymWebsite.github.io/
